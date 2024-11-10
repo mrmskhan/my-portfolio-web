@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './Navbar';
-import { MdRoundedCorner } from 'react-icons/md';
 
 const Hero = () => {
   return (
@@ -13,13 +12,12 @@ const Hero = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      
       <Navbar />
       <div className='container grid lg:grid-cols-2 pb-40 pl-96 h-[calc(100vh-60px)]'>
         <div className='hidden lg:block'></div>
         <div className='text-[80px] sm:text-[80px] font-bold leading-tight flex justify-center items-center pr-[30rem] pt-16'>
           <div>
-            <p data-aos="zoom-in">I' m</p>
+            <p data-aos="zoom-in">I&apos;m</p>
             <p data-aos="zoom-in">Muhammad</p>
             <p data-aos="zoom-in">Saleem Khan</p>
           </div>
