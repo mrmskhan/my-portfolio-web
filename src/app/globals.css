@@ -4,37 +4,48 @@
 
 @layer base {
   body {
-    color:white;
-    background-color: #0d0d2a;
+    color: white;
+    background-color: #0d0d2a; /* Dark background */
   }
 }
 
 @layer components {
+  /* Menu Link */
   .menuLink {
     @apply cursor-pointer hover:text-[#c5c5c5];
   }
 
+  /* Smooth Scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Tags Styles */
   .tags {
-    background-color: #0abde3;
+    background-color: #0abde3; /* Default tag color */
     margin-right: 0.5rem;
     margin-top: 0.5rem;
     padding: 3px 10px;
     display: inline-block;
     color: #fff;
     font-size: 12px;
+    border-radius: 4px; /* Optional: adds rounded corners for better design */
   }
 
-  .tags:last-child{
+  .tags:last-child {
     margin-right: 0;
   }
 
-  .tags:nth-child(2){
-    background-color: #a55eea;
+  /* Tag Color Variations */
+  .tags:nth-child(2) {
+    background-color: #a55eea; /* Purple */
   }
-  .tags:nth-child(3){
-    background-color: #bd9f10;
+  
+  .tags:nth-child(3) {
+    background-color: #bd9f10; /* Yellow */
   }
-  .tags:nth-child(4){
-    background-color: #eb4d4b;
+
+  .tags:nth-child(4) {
+    background-color: #eb4d4b; /* Red */
   }
 }

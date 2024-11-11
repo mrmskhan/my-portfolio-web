@@ -30,18 +30,18 @@ const Contacts = () => {
           </div>
 
           <div className='flex flex-col gap-1'  data-aos="zoom-in">
-            <label htmlFor="email">Email</label>
-            <input type="text"
-            className='h-[40px] bg-transparent border border-orange-200  rounded-lg'
-            id="email" />
+             <label htmlFor="email">Email</label>
+             <input type="email"
+             className='h-[40px] bg-transparent border border-orange-200 rounded-lg'
+             id="email" />
           </div>
 
           <div className='flex flex-col gap-1 '  data-aos="zoom-in">
-            <label htmlFor="message">Message</label>
+          <label htmlFor="message">Message</label>
             <textarea
-            className='bg-transparent border border-orange-200  rounded-lg mix-blend-lighten'
-            id="Message" rows={8}>
-             </textarea>
+              className='bg-transparent border border-orange-200 rounded-lg mix-blend-lighten'
+              id="message" rows={8}>
+            </textarea>
           </div>
           <button className='bg-orange-200 p-2 px-6 text-black rounded-lg'  data-aos="zoom-in">Send</button>
         </div>
